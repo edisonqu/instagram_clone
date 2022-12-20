@@ -1,0 +1,470 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+background-color: #fafafa;
+font-size: 1em;
+font-family: Helvetica, Arial,sans-serif ;
+}
+#logo{
+    margin-top: 7px;
+    margin-left: 205px;
+    margin-right: 258px;
+    /* cursor: pointer; */
+}
+#logo img:hover{
+    opacity: 2px;
+}
+#search input{
+    display: flex;
+    border: solid 1px #dbdbdb;
+    width: 215px;
+    padding: 4px 8px 3px 10px;
+    border-radius: 3px;
+    background: #fafafa;
+    font-size: 16px;
+    text-align: center;
+}
+.ProfilePhoto{
+    width: 22px;
+    height: 22px;
+}
+.ProfilePhoto img {
+    height: 100%;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    height: 54px;
+    background: rgba(var(--d87,255,255,255),1);
+    border-bottom: 1px solid #dbdbdb;
+    z-index: 2;
+   
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{ 
+    list-style: none;
+    padding: 11px;
+   }
+#right{
+    padding-left: 151px;
+
+}
+/* .all{
+margin-left: 207px;
+margin-right: 207px;
+padding-top: 30px;
+} */
+.main{
+width: 614px;
+margin-left: 207px;
+margin-right: 207px;
+padding-top: 30px;
+}
+#story {
+    display: flex;
+   background: rgba(var(--d87,255,255,255),1);
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    margin-bottom: 24px;
+    margin-top: 0;
+    padding: 16px 0;
+}
+#story .profile_pics {
+    padding: -20px;
+    width: 64px;
+    height: 64px;
+    margin-left: 15px;
+    border-radius: 47px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imagemaker{
+    width: 56px;
+    height: 56px;
+}
+.imagemaker img {
+    height: 100%;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.both{
+    font-size: 9px;
+    line-height: 14px;
+    height: 74px;
+   
+}
+ .name{
+    letter-spacing: .01em;
+    font-family: 'Blinker';
+    /* color: #262626; */
+    color:#505050;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 22px;
+    padding-left: 17px;
+    max-width: 91px;
+    overflow: hidden;
+    position: absolute;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  
+}
+
+.post{
+    border: 1px solid #dbdbdb;
+    background: rgba(var(--d87,255,255,255),1);
+    margin-bottom: 60px;
+    
+}
+.heading{
+    height: 60px;
+    padding: 16px;
+    border-bottom: 1px solid rgba(var(--ce3,239,239,239),1)
+}
+
+
+ .dp{
+    position: relative;
+    display: flex;
+    width: 42px;
+    height: 42px;
+}
+.dpmaker{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+}
+ .dpmaker img{
+    height: 100%;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.profile_name{
+ margin-left: 46px;
+   display: flex;
+   
+}
+.profile_name a{
+    text-decoration: none;
+    /* color: #262626; */
+    color:#505050;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    padding-top: 6px;
+   
+}
+.profile_name a:hover{
+    text-decoration-color: black;
+    text-decoration-line: underline;
+}
+.postpic{
+    display: flex;
+    height: 612px;
+    justify-content: center;
+}
+.postpic img{
+    display: flex;
+}
+.footer{
+        height: 186px;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-top: 12px;
+        margin-bottom:140px;
+}
+.All_logo{
+    margin-top: 4px;
+    height: 40px;
+    width: 614px;
+}
+.like{
+    padding-right: 11px;
+}
+.rightlogo{
+  margin-left: 436px;
+}
+.liked_people{
+    height: 24px;
+    margin-bottom: 8px;
+    font-size: 13.5px;
+    display: flex;
+    align-content: center;
+
+
+}
+.maker{
+    width: 20px;
+    height: 20px;
+}
+.maker img{
+    height: 100%;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+.liked_people p {
+       -webkit-box-align: center;
+    display: flex;
+     margin-left: 8px;
+    align-items: center;
+}
+.writecmnt {
+    font-size: 13.5px;
+    -webkit-box-align: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.Allcomment {
+    color: #6c757d;
+    font-size: 13.5px;
+     -webkit-box-align: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+
+}
+.xxsmall{
+    margin-top: 4px ;
+    font-size: 8.5px;
+}
+.last{
+   height: 56px;
+   display: flex;
+   padding-right: 16px;
+   padding-left: 16px;
+   align-items: center;
+   border-top:1px solid #dbdbdb;
+}
+.last_emoji{
+    padding-right: 15px;
+}
+.addCmnt{
+    margin-right: 328px;
+}
+.addCmnt input{
+    display: flex;
+    border: solid 1px transparent;
+    font-size: 14px;
+ 
+}
+.btn{
+    border: 0;
+    opacity: .3;
+    pointer-events: none;
+    color: rgba(var(--d69,0,149,246),1);
+    position: relative;
+      cursor: pointer;
+    display: block;
+    font-weight: 600;
+    padding: 5px 9px;
+    text-align: center;
+    text-transform: inherit;
+    text-overflow: ellipsis;
+    user-select: none;
+    width: auto;
+}
+.rightside{
+    top: 88px;
+    left: 849px;
+    /* border: 1px solid red; */
+    height: 100vh;
+    margin-bottom: 30px;
+    padding: 0;
+    max-width: 293px;
+    position: fixed;
+    /* right: 0; */
+    width: 100%;
+}
+.red:hover{
+    fill:red; 
+  
+}
+.normal_a{
+    text-decoration: none;
+    color: black;
+}
+.normal_a:hover{
+    text-decoration-color: black;
+    text-decoration-line: underline;
+}
+.largeProfilePhoto{
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: 18px;
+    align-items: center;
+    display: flex;
+  
+}
+.largeProfilePhotomaker{
+    height: 56px;
+    width: 56px;
+    margin-right: 15px;
+}
+
+.largeProfilePhotomaker  img{
+    height: 100%;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  
+}
+.LargeProfileName{
+    margin-right: 37px;
+}
+.LargeProfileName a{
+    font-size: small;
+    color: rgba(var(--i1d,38,38,38),1);
+    font-weight: 600;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    text-decoration: none;
+}
+
+.LargeProfileName p{
+    color: #6c757d;
+    font-size: 14px;
+    margin-top: 2px;
+
+}
+.largeProfilePhoto button{
+    border: 0;
+    font-size: 12px;
+    background-color: transparent;
+    color: rgba(var(--d69,0,149,246),1);
+    position: relative;
+    cursor: pointer;
+    display: block;
+    font-weight: 600;
+    padding: 5px 9px;
+    text-align: center;
+    text-transform: inherit;
+    text-overflow: ellipsis;
+    user-select: none;
+    width: auto;
+   
+}
+.secondsec{
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: 18px;
+    align-items: center;
+    display: flex;
+}
+.suggestion{
+    color: #6c757d;
+    font-weight: 600;
+    font-size: 14px;
+    opacity: 0.8;
+    margin-right: 102px;
+}
+.Viewall{
+    font-size: 14px;
+    position: relative;
+}
+.Viewall a{
+    text-decoration: none;
+    color:#505050;
+}
+.suggestionsPhoto{
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: 18px;
+    align-items: center;
+    display: flex;
+}
+.suggestionsPhotomaker{
+    height: 35px;
+    width: 35px;
+    margin-right: 13px;
+}
+.suggestionsPhotomaker img{
+    
+    height: 100%;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+   
+}
+.suggestionProfileName{
+    margin-right: 65px;
+}
+.suggestionProfileName a{
+    font-size: small;
+    color: rgba(var(--i1d,50,50,50),1);
+    font-weight: 600;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    text-decoration: none;
+}
+.suggestionProfileName p{
+    color: #6c757d;
+    font-size: 12px;
+    margin-top: 2px;
+
+}
+.suggestionProfileName a:hover{
+     text-decoration-color: black;
+     text-decoration-line: underline;
+}
+.suggestionsPhoto button{
+    border: 0;
+    font-size: 12px;
+    background-color: transparent;
+    color: rgba(var(--d69,0,149,246),1);
+    position: relative;
+    cursor: pointer;
+    display: block;
+    font-weight: 600;
+    padding: 5px 9px;
+    text-align: center;
+    text-transform: inherit;
+    text-overflow: ellipsis;
+    user-select: none;
+    width: auto;
+}
+.suggestionsPhoto button:active {
+    background-color: transparent;
+    border-color: transparent;
+  }
+
+   
